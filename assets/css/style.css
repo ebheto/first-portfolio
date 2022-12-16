@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* header nav {
+padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: inline;
+    float: right;
+} */
+
+#heroGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 75% 25%;
+    grid-template-areas:
+    "Blog projects"
+    "Blog socialmedia"; 
+  }
+  
+  #Blog {
+    grid-area: Blog;
+    background-image: url("../images/pramod-tiwari-k0lTVz7i5TI-unsplash.jpg");
+    cursor: pointer;
+    color: rgb(59, 22, 22);
+    margin: 10px;
+  }
+
+  #Projects {
+    grid-area: projects;
+    background-image: url("../images/markus-spiske-EZZXV_dXLy4-unsplash.jpg");
+    cursor: pointer;
+    color: rgb(28, 12, 12);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #SocialMedia {
+    grid-area: socialmedia;
+    background-image: url("../images/marek-piwnicki-e-ROmhuBUbk-unsplash.jpg");
+    cursor: pointer;
+    color: rgb(58, 13, 13);
+    margin: 10px;
+  }
+
+  .heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+ 
+
+  #About{
+    display: flex-end;
+    flex-direction: row;
+    padding: 15px;
+    color: brown;
+  }
+
+  #logo {
+    display: flex-end;
+    flex-direction: row;
+    padding: 15px;
+    color: brown;
+  }
+
+  #navigation {
+    display: flex;
+   flex-direction: row;
+   float: right;
+   margin: -30px 5%;
+  }
+
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    color: brown;
+  }
